@@ -9,18 +9,19 @@
 /* Begin PBXBuildFile section */
 		283372D41BF538BC00D343E4 /* JPEG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283372D21BF538BC00D343E4 /* JPEG.swift */; };
 		283372D51BF538BC00D343E4 /* QuickTimeMov.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283372D31BF538BC00D343E4 /* QuickTimeMov.swift */; };
+		39DF62202B67448500D285C5 /* video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 39DF621F2B67448500D285C5 /* video.mov */; };
 		75C6D54F1FC3C7FC008D8570 /* DTOtherMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C6D54E1FC3C7FC008D8570 /* DTOtherMacro.swift */; };
 		B26BE5051BAF467300A3E194 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26BE5041BAF467300A3E194 /* AppDelegate.swift */; };
 		B26BE5071BAF467300A3E194 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26BE5061BAF467300A3E194 /* ViewController.swift */; };
 		B26BE50C1BAF467300A3E194 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B26BE50B1BAF467300A3E194 /* Assets.xcassets */; };
 		B26BE50F1BAF467300A3E194 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B26BE50D1BAF467300A3E194 /* LaunchScreen.storyboard */; };
 		B26BE5181BAF4CEC00A3E194 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B26BE5161BAF4CEC00A3E194 /* Main.storyboard */; };
-		B26BE5191BAF4CEC00A3E194 /* video.m4v in Resources */ = {isa = PBXBuildFile; fileRef = B26BE5171BAF4CEC00A3E194 /* video.m4v */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		283372D21BF538BC00D343E4 /* JPEG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JPEG.swift; path = ../JPEG.swift; sourceTree = "<group>"; };
 		283372D31BF538BC00D343E4 /* QuickTimeMov.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuickTimeMov.swift; path = ../QuickTimeMov.swift; sourceTree = "<group>"; };
+		39DF621F2B67448500D285C5 /* video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = video.mov; sourceTree = "<group>"; };
 		75C6D54E1FC3C7FC008D8570 /* DTOtherMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTOtherMacro.swift; sourceTree = "<group>"; };
 		B26BE5011BAF467300A3E194 /* LivePhotoDemoSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LivePhotoDemoSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B26BE5041BAF467300A3E194 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -29,7 +30,6 @@
 		B26BE50E1BAF467300A3E194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B26BE5101BAF467300A3E194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B26BE5161BAF4CEC00A3E194 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		B26BE5171BAF4CEC00A3E194 /* video.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.m4v; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +78,8 @@
 				283372D31BF538BC00D343E4 /* QuickTimeMov.swift */,
 				B26BE50D1BAF467300A3E194 /* LaunchScreen.storyboard */,
 				B26BE5161BAF4CEC00A3E194 /* Main.storyboard */,
+				39DF621F2B67448500D285C5 /* video.mov */,
 				B26BE5101BAF467300A3E194 /* Info.plist */,
-				B26BE5171BAF4CEC00A3E194 /* video.m4v */,
 				B26BE50B1BAF467300A3E194 /* Assets.xcassets */,
 			);
 			path = LivePhotoDemoSwift;
@@ -116,7 +116,7 @@
 				TargetAttributes = {
 					B26BE5001BAF467300A3E194 = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = H8J36KWCJF;
+						DevelopmentTeam = 94A34D62A6;
 						LastSwiftMigration = 0910;
 					};
 				};
@@ -126,6 +126,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -144,8 +145,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39DF62202B67448500D285C5 /* video.mov in Resources */,
 				B26BE5181BAF4CEC00A3E194 /* Main.storyboard in Resources */,
-				B26BE5191BAF4CEC00A3E194 /* video.m4v in Resources */,
 				B26BE50F1BAF467300A3E194 /* LaunchScreen.storyboard in Resources */,
 				B26BE50C1BAF467300A3E194 /* Assets.xcassets in Resources */,
 			);
@@ -283,10 +284,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = H8J36KWCJF;
+				DEVELOPMENT_TEAM = 94A34D62A6;
 				INFOPLIST_FILE = LivePhotoDemoSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.okrain.LivePhotoDemoSwift2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mitooowp.fhmy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -299,10 +300,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = H8J36KWCJF;
+				DEVELOPMENT_TEAM = 94A34D62A6;
 				INFOPLIST_FILE = LivePhotoDemoSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.okrain.LivePhotoDemoSwift2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mitooowp.fhmy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;

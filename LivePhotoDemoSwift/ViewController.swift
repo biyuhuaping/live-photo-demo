@@ -14,7 +14,7 @@ struct FilePaths {
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     @IBOutlet weak var livePhotoView: PHLivePhotoView! {
         didSet {
-            loadVideoWithVideoURL(Bundle.main.url(forResource: "video", withExtension: "m4v")!)
+            loadVideoWithVideoURL(Bundle.main.url(forResource: "video", withExtension: "mov")!)
         }
     }
     
